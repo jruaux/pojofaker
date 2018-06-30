@@ -6,6 +6,7 @@ import java.util.Random;
 import com.github.javafaker.service.RandomService;
 
 public class Faker {
+
 	private final Ancient ancient;
 	private final App app;
 	private final Artist artist;
@@ -249,232 +250,231 @@ public class Faker {
 		return faker.regexify(regex);
 	}
 
-	public RandomService random() {
+	public RandomService getRandom() {
 		return this.faker.random();
 	}
 
-	public Currency currency() {
+	public Currency getCurrency() {
 		return currency;
-
 	}
 
-	public Ancient ancient() {
+	public Ancient getAncient() {
 		return ancient;
 	}
 
-	public App app() {
+	public App getApp() {
 		return app;
 	}
 
-	public Artist artist() {
+	public Artist getArtist() {
 		return artist;
 	}
 
-	public Avatar avatar() {
+	public Avatar getAvatar() {
 		return avatar;
 	}
 
-	public Music music() {
+	public Music getMusic() {
 		return music;
 	}
 
-	public Name name() {
+	public Name getName() {
 		return name;
 	}
 
-	public Number number() {
+	public Number getNumber() {
 		return number;
 	}
 
-	public Internet internet() {
+	public Internet getInternet() {
 		return internet;
 	}
 
-	public PhoneNumber phoneNumber() {
+	public PhoneNumber getPhoneNumber() {
 		return phoneNumber;
 	}
 
-	public Pokemon pokemon() {
+	public Pokemon getPokemon() {
 		return pokemon;
 	}
 
-	public Lorem lorem() {
+	public Lorem getLorem() {
 		return lorem;
 	}
 
-	public Address address() {
+	public Address getAddress() {
 		return address;
 	}
 
-	public Book book() {
+	public Book getBook() {
 		return book;
 	}
 
-	public Business business() {
+	public Business getBusiness() {
 		return business;
 	}
 
-	public ChuckNorris chuckNorris() {
+	public ChuckNorris getChuckNorris() {
 		return chuckNorris;
 	}
 
-	public Color color() {
+	public Color getColor() {
 		return color;
 	}
 
-	public Commerce commerce() {
+	public Commerce getCommerce() {
 		return commerce;
 	}
 
-	public Company company() {
+	public Company getCompany() {
 		return company;
 	}
 
-	public Crypto crypto() {
+	public Crypto getCrypto() {
 		return crypto;
 	}
 
-	public Hacker hacker() {
+	public Hacker getHacker() {
 		return hacker;
 	}
 
-	public IdNumber idNumber() {
+	public IdNumber getIdNumber() {
 		return idNumber;
 	}
 
-	public Options options() {
+	public Options getOptions() {
 		return options;
 	}
 
-	public Code code() {
+	public Code getCode() {
 		return code;
 	}
 
-	public File file() {
+	public File getFile() {
 		return file;
 	}
 
-	public Finance finance() {
+	public Finance getFinance() {
 		return finance;
 	}
 
-	public Food food() {
+	public Food getFood() {
 		return food;
 	}
 
-	public GameOfThrones gameOfThrones() {
+	public GameOfThrones getGameOfThrones() {
 		return gameOfThrones;
 	}
 
-	public DateAndTime date() {
+	public DateAndTime getDate() {
 		return dateAndTime;
 	}
 
-	public Demographic demographic() {
+	public Demographic getDemographic() {
 		return demographic;
 	}
 
-	public Educator educator() {
+	public Educator getEducator() {
 		return educator;
 	}
 
-	public SlackEmoji slackEmoji() {
+	public SlackEmoji getSlackEmoji() {
 		return slackEmoji;
 	}
 
-	public Shakespeare shakespeare() {
+	public Shakespeare getShakespeare() {
 		return shakespeare;
 	}
 
-	public Space space() {
+	public Space getSpace() {
 		return space;
 	}
 
-	public Superhero superhero() {
+	public Superhero getSuperhero() {
 		return superhero;
 	}
 
-	public Bool bool() {
+	public Bool getBool() {
 		return bool;
 	}
 
-	public Team team() {
+	public Team getTeam() {
 		return team;
 	}
 
-	public Beer beer() {
+	public Beer getBeer() {
 		return beer;
 	}
 
-	public University university() {
+	public University getUniversity() {
 		return university;
 	}
 
-	public Cat cat() {
+	public Cat getCat() {
 		return cat;
 	}
 
-	public Stock stock() {
+	public Stock getStock() {
 		return stock;
 	}
 
-	public LordOfTheRings lordOfTheRings() {
+	public LordOfTheRings getLordOfTheRings() {
 		return lordOfTheRings;
 	}
 
-	public Zelda zelda() {
+	public Zelda getZelda() {
 		return zelda;
 	}
 
-	public HarryPotter harryPotter() {
+	public HarryPotter getHarryPotter() {
 		return harryPotter;
 	}
 
-	public RockBand rockBand() {
+	public RockBand getRockBand() {
 		return rockBand;
 	}
 
-	public Esports esports() {
+	public Esports getEsports() {
 		return esports;
 	}
 
-	public Friends friends() {
+	public Friends getFriends() {
 		return friends;
 	}
 
-	public Hipster hipster() {
+	public Hipster getHipster() {
 		return hipster;
 	}
 
-	public Job job() {
+	public Job getJob() {
 		return job;
 	}
 
-	public TwinPeaks twinPeaks() {
+	public TwinPeaks getTwinPeaks() {
 		return twinPeaks;
 	}
 
-	public RickAndMorty rickAndMorty() {
+	public RickAndMorty getRickAndMorty() {
 		return rickAndMorty;
 	}
 
-	public Yoda yoda() {
+	public Yoda getYoda() {
 		return yoda;
 	}
 
-	public Matz matz() {
+	public Matz getMatz() {
 		return matz;
 	}
 
-	public Witcher witcher() {
+	public Witcher getWitcher() {
 		return witcher;
 	}
 
-	public Weather weather() {
+	public Weather getWeather() {
 		return weather;
 	}
 
-	public Lebowski lebowski() {
+	public Lebowski getLebowski() {
 		return lebowski;
 	}
 
