@@ -138,46 +138,6 @@ public class Faker {
 	}
 
 	/**
-	 * Constructs Faker instance with default argument.
-	 *
-	 * @return {@link Faker#Faker()}
-	 */
-	public static Faker instance() {
-		return new Faker();
-	}
-
-	/**
-	 * Constructs Faker instance with provided {@link Locale}.
-	 *
-	 * @param locale - {@link Locale}
-	 * @return {@link Faker#Faker(Locale)}
-	 */
-	public static Faker instance(Locale locale) {
-		return new Faker(locale);
-	}
-
-	/**
-	 * Constructs Faker instance with provided {@link Random}.
-	 *
-	 * @param random - {@link Random}
-	 * @return {@link Faker#Faker(Random)}
-	 */
-	public static Faker instance(Random random) {
-		return new Faker(random);
-	}
-
-	/**
-	 * Constructs Faker instance with provided {@link Locale} and {@link Random}.
-	 *
-	 * @param locale - {@link Locale}
-	 * @param random - {@link Random}
-	 * @return {@link Faker#Faker(Locale, Random)}
-	 */
-	public static Faker instance(Locale locale, Random random) {
-		return new Faker(locale, random);
-	}
-
-	/**
 	 * Returns a string with the '#' characters in the parameter replaced with
 	 * random digits between 0-9 inclusive.
 	 * <p>
