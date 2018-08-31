@@ -47,6 +47,7 @@ import org.ruaux.pojofaker.model.PhoneNumber;
 import org.ruaux.pojofaker.model.Pokemon;
 import org.ruaux.pojofaker.model.RickAndMorty;
 import org.ruaux.pojofaker.model.RockBand;
+import org.ruaux.pojofaker.model.Sequence;
 import org.ruaux.pojofaker.model.Shakespeare;
 import org.ruaux.pojofaker.model.SlackEmoji;
 import org.ruaux.pojofaker.model.Space;
@@ -120,6 +121,7 @@ public class Faker {
 	private final Witcher witcher;
 	private final Weather weather;
 	private final Lebowski lebowski;
+	private final Sequence sequence;
 	private com.github.javafaker.Faker faker;
 
 	public Faker() {
@@ -192,6 +194,7 @@ public class Faker {
 		this.witcher = new Witcher(faker);
 		this.weather = new Weather(faker);
 		this.lebowski = new Lebowski(faker);
+		this.sequence = new Sequence();
 	}
 
 	/**
@@ -495,6 +498,10 @@ public class Faker {
 		return lebowski;
 	}
 
+	public Sequence getSequence() {
+		return sequence;
+	}
+
 	public String resolve(String key) {
 		return faker.resolve(key);
 	}
@@ -502,4 +509,5 @@ public class Faker {
 	public String expression(String expression) {
 		return faker.expression(expression);
 	}
+
 }

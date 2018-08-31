@@ -49,4 +49,5 @@ public class Number {
 	public String getDigit() {
 		return number.digit();
 	}
+	
 }
