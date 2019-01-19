@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.ruaux</groupId>
 	<artifactId>pojofaker</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<url>https://github.com/jruaux/pojofaker.git</url>
 	<developers>
@@ -25,7 +25,7 @@
 		<url>https://github.com/jruaux/pojofaker.git</url>
 		<connection>scm:git:git://github.com/jruaux/pojofaker.git</connection>
 		<developerConnection>scm:git:git@github.com:jruaux/pojofaker.git</developerConnection>
-		<tag>pojofaker-1.0.3</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<repositories>
