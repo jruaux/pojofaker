@@ -1,5 +1,8 @@
 package org.ruaux.pojofaker.model;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 import com.github.javafaker.Faker;
 
 public class Number {
@@ -49,5 +52,13 @@ public class Number {
 	public String getDigit() {
 		return number.digit();
 	}
-	
+
+	public Map<String, Object> randomDoubleMap(int maxNumberOfDecimals, long min, long max, String... fields) {
+		Map<String, Object> map = new LinkedHashMap<>(fields.length);
+		for (String field : fields) {
+			map.put(field, randomDouble(maxNumberOfDecimals, min, max));
+		}
+		return map;
+	}
+
 }
